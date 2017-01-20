@@ -19,3 +19,6 @@
 >You can possibly know me better by seeing my [instagram account](https://www.instagram.com/anthonyjuan_/) :)
  
 
+**Future Plans**
+
+I'm going to make this website's design looks better by adding javascript

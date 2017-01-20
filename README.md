@@ -15,4 +15,7 @@
 
 **About Me**
 
->I have a big interest in creative field! 
+>I have a big interest in creative field!  
+>You can possibly know me better by seeing my [instagram account](www.instagram.com/anthonyjuan_) :)
+ 
+

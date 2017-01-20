@@ -7,5 +7,7 @@ This website is my final work for Week-1, Phase-0. After learning a lot about HT
 **Used Tags & Syntaxes**
 
 * HTML  
-`<html>`  
-`<head>` 
+`<html>`  `<head>`  `<title>`  `<body>`  `<header>`  `<section>`  `<footer>`
+
+* CSS  
+`<background>`  `<font-family>`  `<font-size>`  `<text-align>`  

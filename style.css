@@ -50,7 +50,7 @@ nav li{
 }
 
 .socmed {
-	padding-top: 60px;
+	padding-top: 150px;
 	padding-left: 20px;
 	/*border: 1px solid black;*/
 	height: 50px;
@@ -81,7 +81,7 @@ h2 {
 }
 
 #article-list {
-	width: 60%;
+	width: 80%;
 
 	margin: 0 auto;
 	background-color: white;
@@ -114,7 +114,8 @@ section {
 	background-color: white;
 	/*border: 1px solid black;*/
 	overflow: hidden;
-	height: 500px;
+	width: 100%;
+	height: auto;
 
 }
 #about {
@@ -126,7 +127,7 @@ section {
 .about-list {
 	text-align: center;
 	padding: 20px 20px;
-	height: 300px;
+	height: 29%;
 	width: 29%;
 	margin: 0 auto;
 	float: left;
@@ -135,10 +136,19 @@ section {
 }
 
 .about-list img {
-	height: 300px;
+	height: 100%;
 	width: 100%;
 	border-radius: 100%; 
 
+}
+@media  (max-width: 960px) {
+	#about-container {
+		width: auto;
+	}
+	.about-list{
+		width: auto;
+		float: none;
+	}
 }
 
 footer {

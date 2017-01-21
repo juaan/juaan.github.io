@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	
+}
+body {
+	background: url("img/background.jpg") repeat;
+	background-attachment: fixed;
+	/*background-size: content;*/
+	
+	font-family: 'Overpass';
+	
+}
+
+header{
+	background-color: white;
+	width: 100%;
+	position: fixed;
+}
+
+nav{
+	text-align: center;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.list:hover {
+	color: grey;
+	border-bottom: 1px solid grey;
+}
+
+nav li{
+	display: inline-block;
+	padding: 15px 30px;
+}
+
+#logo{
+	font-family: 'Pacifico', cursive;
+    font-size: 28px;
+}
+#banner{
+	margin-top: -50px;
+	width: 100%;
+	height: 700px;
+	background: url("img/welcome.png") no-repeat top center;
+  	background-size: cover;
+  	background-attachment: fixed;
+}
+
+.socmed {
+	padding-top: 60px;
+	padding-left: 20px;
+	/*border: 1px solid black;*/
+	height: 50px;
+	width: 50px;
+	float: left;
+}
+
+.socmed img {
+	height: 50px;
+	width: 50px;
+}
+
+.socmed img:hover {
+	opacity: 0.6;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 36px;
+	font-weight: bold;
+	
+	letter-spacing: 0.01em;
+	padding-top: 20px;
+}
+h2 {
+	text-align: center;
+}
+
+#article-list {
+	width: 60%;
+	margin: 0 auto;
+	background-color: white;
+
+}
+
+#article-container {
+
+}
+
+article{
+	padding: 20px 30px 40px 30px;
+	border-bottom: 1px solid rgba(128, 128, 128, 0.35);
+}
+
+p {
+	padding-top: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+section {
+	clear: left;
+	padding-top: 100px;
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	padding-bottom: 100px;
+	
+	
+
+}
+#about-container {
+	background-color: white;
+	height: 600px;
+}
+#about {
+	width: 77%;
+	height: 500px;
+	margin: 0 auto;
+	
+	/*border: 1px solid black;*/
+}
+.about-list {
+	text-align: center;
+	padding: 20px 20px;
+	height: 300px;
+	width: 300px;
+	margin: 0 auto;
+	float: left;
+	/*border: 1px solid black;*/
+
+}
+
+.about-list img {
+	height: 300px;
+	width: 300px;
+	border-radius: 100%; 
+
+}
+
+footer {
+	clear: both;
+	background-color: black;
+	color: white;
+	height: auto;
+	width: 100%;
+	text-align: center;
+}
+h5 {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}

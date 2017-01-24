@@ -18,5 +18,10 @@ TULISKAN "Pasti Bisa!"
 
 ## tugas 3
 ```
+SIMPAN jumlah-perulangan = 15
+SIMPAN angka = 1
+IF angka % 3 = 0
+TAMPILKAN angka
+ULANGI hingga angka lebih besar sama dengan jumlah-perulangan
 
 ```

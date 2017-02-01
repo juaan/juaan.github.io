@@ -3,11 +3,11 @@
 	
 }
 body {
-	background: url("img/background.jpg") repeat;
-	background-attachment: fixed;
+	/*background: url("img/background.jpg") repeat;*/
+	/*background-attachment: fixed;*/
 	/*background-size: content;*/
 	
-	font-family: 'Overpass';
+	font-family: 'Bree Serif', sans-serif
 	
 }
 
@@ -47,7 +47,7 @@ nav li{
 	background: url("img/welcome.png") no-repeat top center;
   	background-size: cover;
   	background-attachment: fixed;
-}
+  }
 
 #banner-reflection{
 	width: 100%;
@@ -70,18 +70,25 @@ nav li{
 
 }
 
+#for-socmed {
+	width: 120px;
+	height: 40px;
+	margin: 0 auto;
+
+}
+
 .socmed {
-	padding-top: 150px;
-	padding-left: 20px;
+	
+	padding: 10px 10px;
 	/*border: 1px solid black;*/
-	height: 50px;
-	width: 50px;
+	height: 20px;
+	width: 20px;
 	float: left;
 }
 
 .socmed img {
-	height: 50px;
-	width: 50px;
+	height: 30px;
+	width: 30px;
 }
 
 .socmed img:hover {
@@ -93,7 +100,6 @@ h1 {
 	margin-bottom: 20px;
 	font-size: 36px;
 	font-weight: bold;
-	
 	letter-spacing: 0.01em;
 	padding-top: 20px;
 }
@@ -102,7 +108,7 @@ h2 {
 }
 
 .article-list {
-	width: 80%;
+	width: 60%;
 	margin: 0 auto;
 	background-color: white;
 	/*border: 1px solid black;*/
@@ -111,12 +117,15 @@ h2 {
 
 article{
 	padding: 20px 30px 40px 30px;
-	border-bottom: 1px solid rgba(128, 128, 128, 0.35);
+	border-bottom: 1px solid #f1c40f;
+	text-align: justify;
+	font-size: 20px;
 
 }
 article p {
 	font-style: italic;
-	text-decoration: underline;
+	color: #d35400;
+
 }
 
 
@@ -138,12 +147,15 @@ section {
 	height: auto;
 
 }
-#about {
-	width: 77%;
+
+.about {
+	width: 50%;
 	margin: 0 auto;
-	
+	text-align: justify;
+	font-size: 20px;
 	/*border: 1px solid black;*/
 }
+
 .about-list {
 	text-align: center;
 	padding: 20px 20px;
@@ -181,6 +193,7 @@ footer {
 	height: auto;
 	width: 100%;
 	text-align: center;
+	margin-top: 20px;
 }
 h5 {
 	padding-top: 25px;

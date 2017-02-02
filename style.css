@@ -103,9 +103,7 @@ h1 {
 	letter-spacing: 0.01em;
 	padding-top: 20px;
 }
-h2 {
-	text-align: center;
-}
+
 
 .article-list {
 	width: 60%;
@@ -122,6 +120,13 @@ article{
 	font-size: 20px;
 
 }
+
+article h2 {
+	text-decoration: underline;
+	text-decoration-style: double;
+
+}
+
 article p {
 	font-style: italic;
 	color: #d35400;
@@ -155,6 +160,9 @@ section {
 	font-size: 20px;
 	/*border: 1px solid black;*/
 }
+.about h2 {
+	text-align: center;
+}
 
 .about-list {
 	text-align: center;
@@ -183,6 +191,28 @@ section {
 	}
 	#banner{
 		background: url("img/welcome-copy.png") no-repeat top center;
+	}
+	.about {
+	width: auto;
+	margin: 0 auto;
+	text-align: justify;
+	font-size: 16px;
+	padding: 10px 10px;
+	/*border: 1px solid black;*/
+	}
+	.article-list {
+	width: auto;
+	margin: 0 auto;
+	padding: 10px 10px;
+	background-color: white;
+	
+	}
+	article{
+	padding: 20px 30px 40px 30px;
+	border-bottom: 1px solid #f1c40f;
+	text-align: left;
+	font-size: 16px;
+
 	}
 }
 

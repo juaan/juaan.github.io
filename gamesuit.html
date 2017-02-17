@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- https://rawgit.com/anthonyjuan/suit.github.io/master/index.html -->
+<html>
+  <head>
+    <title>Suit! [Rock, Paper, Scissor !]</title>
+    <link rel="stylesheet" type="text/css" href="style-game.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Bree+Serif" rel="stylesheet"> 
+    <script type="text/javascript" src="script.js"></script>
+    <!-- <script type="text/javascript" src="../js.js"></script>   -->
+  </head>
+  <body>
+      <audio id="audio">
+        <source src="sound.mp3" type="audio/mpeg">
+      </audio> 
+    <!-- <audio src="sound.mp3" autostart="true" controls></audio>  -->
+    <div id="container">
+    <h1 id="welcome2">Tentukan Pilihan Mu!</h1>
+      <div id="welcome-note">
+        <h1 id="welcome">Welcome To Suit Game !</h1>
+        <button id="button-start">Mulai bermain</button>
+      </div>
+      <div id="arena">
+        <div id="user-selection"></div>
+        <div id="versus"></div>
+        <div id="computer-selection"></div>
+        
+      </div>
+      <div id="option">
+        <div class="select-option gunting">
+          
+          <img src="img/gunting.png">  
+          <p>Gunting</p>
+        </div>
+        <div class="select-option kertas">
+          
+          <img src="img/kertas.png">  
+          <p>Kertas</p>
+        </div>
+        <div class="select-option batu">
+          
+          <img src="img/batu.png">  
+          <p>batu</p>
+
+        </div>
+        <div class="select-option score">
+          <p>Score Board</p>
+          <p id="user"></p>
+          <p id="computer"></p>
+          
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
+<!-- https://jsbin.com/sewunas/edit?html,js,output -->

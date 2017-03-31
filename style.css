@@ -139,10 +139,14 @@ section {
 	padding-bottom: 20px;
 	width: 100%;
 }
+#about {
+	height: 500px;
+}
 
 .about-container {
 	background-color: white;
 	/*border: 1px solid black;*/
+
 	overflow: hidden;
 	width: 100%;
 	height: auto;

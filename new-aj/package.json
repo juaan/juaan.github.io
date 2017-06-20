@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^2.11.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-motion-menu": "^0.4.4"
+    "react-motion-menu": "^0.4.4",
+    "semantic-ui-react": "^0.68.5"
   },
   "devDependencies": {
     "react-scripts": "1.0.7"

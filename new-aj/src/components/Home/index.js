@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import MotionMenu from 'react-motion-menu';
+import { Button, Modal, Header, Icon, } from 'semantic-ui-react'
 import logo from '../../logo.svg';
 import './home.css';
+import Contact from './Contact';
+import About from './About';
 
 class Home extends Component {
   render() {
@@ -9,28 +12,32 @@ class Home extends Component {
       <div className="App">
 
         <div className="App-header">
-          <MotionMenu
-            type="circle"
-            margin={150}
-          >
-            <div className="button">
-              <img src={logo} className="animated rubberBand App-logo" alt="logo" />
-            </div>
-            <div className="button">
-              <p>Name</p>
-            </div>
-            <div className="button">
-              <p>About Me</p>
-            </div>
-            <div className="button">
-              <p>Contact</p>
-            </div>
-          </MotionMenu>
+          <div className="motion">
+            <MotionMenu
+              wing="true"
+              openSpeed={100}
+              type="circle"
+              margin={115}
+            >
+              <div className="button">
+                <img src={logo} className="App-logo animated flash" alt="logo" />
+              </div>
+              <div className="button">
+                <About />
+              </div>
+              <div className="button">
+                <Contact />
+              </div>
+            </MotionMenu>
+          </div>
         </div>
 
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div  className="App-intro">
+          <p>
+            <b>© 2017 ANTHONY JUAN CHRI$$$TIAN.</b> All rights reserved.
+          </p>
+        </div>
+
       </div>
     );
   }

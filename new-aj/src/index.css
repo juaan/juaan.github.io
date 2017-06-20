@@ -1,5 +1,10 @@
+html{
+  background-color: green;
+}
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Overpass', sans-serif;
+  width: 100%;
+  height: 100%;
 }

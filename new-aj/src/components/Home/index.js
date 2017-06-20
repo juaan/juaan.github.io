@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import MotionMenu from 'react-motion-menu';
 import { Button, Modal, Header, Icon, } from 'semantic-ui-react'
-import logo from '../../logo.svg';
+import Sound from 'react-sound';
+
+import open from '../../open.mp3';
+import juan1 from '../../juan1.PNG';
+import juan2 from '../../juan2.PNG';
+
 import './home.css';
 import Contact from './Contact';
 import About from './About';
@@ -10,6 +15,12 @@ class Home extends Component {
   render() {
     return (
       <div className="App">
+        <Sound
+          url={open}
+          playStatus={Sound.status.PLAYING}
+          playFromPosition={0 /* in milliseconds */}
+          onFinishedPlaying={Sound.status.STOPPED}
+        />
 
         <div className="App-header">
           <div className="motion">
@@ -20,7 +31,7 @@ class Home extends Component {
               margin={115}
             >
               <div className="button">
-                <img src={logo} className="App-logo animated flash" alt="logo" />
+                <img src={juan1} className="App-logo animated flash" alt="logo" />
               </div>
               <div className="button">
                 <About />

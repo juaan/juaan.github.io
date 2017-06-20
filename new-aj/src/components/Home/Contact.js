@@ -40,7 +40,7 @@ class Contact extends React.Component {
           </Grid.Column>
           <Grid.Column>
             <Popup
-              trigger={<a href="https://github.com/anthonyjuan"><Icon name='mail outline' size='large' color="green" /></a>}
+              trigger={<a href="mailto:anthonyjuan@outlook.com"><Icon name='mail outline' size='large' color="green" /></a>}
               content='Do not hesitate dude : anthonyjuan@outlook.com'
               position='top center'
               size='tiny'

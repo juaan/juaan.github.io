@@ -12,6 +12,19 @@ import Contact from './Contact';
 import About from './About';
 
 class Home extends Component {
+  constructor() {
+    super();
+    this.state = {
+      changePict: false
+    }
+  }
+
+  handleClick = () => {
+    this.setState({
+      changePict: !this.state.changePict
+    })
+  }
+
   render() {
     return (
       <div className="App">
@@ -31,7 +44,12 @@ class Home extends Component {
               margin={115}
             >
               <div className="button">
-                <img src={juan1} className="App-logo animated flash" alt="logo" />
+                {
+                  this.state.changePict ?
+                  <img src={juan1} className="App-logo animated flash" onClick={this.handleClick} alt="logo" />
+                  :
+                  <img src={juan2} className="App-logo animated flash" onClick={this.handleClick} alt="logo" />
+                }
               </div>
               <div className="button">
                 <About />

@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.App-logo {
+    height: 200px;
+    margin-left: -100px;
+    margin-top: -70px;
+}
+
+.App-header {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 500px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+/*
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}*/
